@@ -1,0 +1,296 @@
+[
+  {
+    "tokenizer": "Character-Level",
+    "vocab_size": 64,
+    "total_tokens": 18340,
+    "char_per_token": 1.0,
+    "model_params": 609920,
+    "epochs": 20,
+    "final_loss": 0.2398,
+    "final_ppl": 1.27,
+    "best_ppl": 1.27,
+    "total_time_s": 292.53,
+    "history": {
+      "loss": [
+        2.1645,
+        1.5623,
+        1.1565,
+        0.853,
+        0.6477,
+        0.521,
+        0.4423,
+        0.3916,
+        0.3554,
+        0.329,
+        0.3087,
+        0.2926,
+        0.2778,
+        0.2685,
+        0.2591,
+        0.2525,
+        0.2464,
+        0.2433,
+        0.2408,
+        0.2398
+      ],
+      "perplexity": [
+        8.71,
+        4.77,
+        3.18,
+        2.35,
+        1.91,
+        1.68,
+        1.56,
+        1.48,
+        1.43,
+        1.39,
+        1.36,
+        1.34,
+        1.32,
+        1.31,
+        1.3,
+        1.29,
+        1.28,
+        1.28,
+        1.27,
+        1.27
+      ],
+      "epoch_time": [
+        14.82,
+        14.613,
+        14.346,
+        14.44,
+        14.077,
+        14.556,
+        15.227,
+        15.455,
+        14.327,
+        14.471,
+        14.402,
+        14.59,
+        14.311,
+        14.365,
+        14.279,
+        14.636,
+        14.419,
+        14.451,
+        14.151,
+        14.452
+      ]
+    },
+    "generations": [
+      {
+        "prompt": "Bitcoin adalah",
+        "output": "Bitcoin adalah proses kompetitif di mana para miner menggunakan perangkat keras khusus untuk m"
+      },
+      {
+        "prompt": "blockchain teknologi",
+        "output": "blockchain teknologi rollup untuk memproses transaksi secara batch.\n\nKesimpulan\n\nBitcoin dan blockch"
+      },
+      {
+        "prompt": "smart contract",
+        "output": "smart contract membuka berbagai kemungkinan aplikasi baru. Developer dapat membangun aplikasi "
+      },
+      {
+        "prompt": "proof of work",
+        "output": "proof of work memerlukan sejumlah besar daya komputasi yang digunakan oleh seluruh jaringan B"
+      }
+    ]
+  },
+  {
+    "tokenizer": "Word-Level",
+    "vocab_size": 864,
+    "total_tokens": 2641,
+    "char_per_token": 6.944,
+    "model_params": 712320,
+    "epochs": 20,
+    "final_loss": 0.0978,
+    "final_ppl": 1.1,
+    "best_ppl": 1.1,
+    "total_time_s": 40.06,
+    "history": {
+      "loss": [
+        5.35,
+        3.5245,
+        2.3652,
+        1.5241,
+        0.9485,
+        0.5839,
+        0.378,
+        0.269,
+        0.2086,
+        0.1746,
+        0.152,
+        0.1355,
+        0.1247,
+        0.1166,
+        0.1103,
+        0.1061,
+        0.1029,
+        0.0998,
+        0.0997,
+        0.0978
+      ],
+      "perplexity": [
+        210.6,
+        33.94,
+        10.65,
+        4.59,
+        2.58,
+        1.79,
+        1.46,
+        1.31,
+        1.23,
+        1.19,
+        1.16,
+        1.15,
+        1.13,
+        1.12,
+        1.12,
+        1.11,
+        1.11,
+        1.1,
+        1.1,
+        1.1
+      ],
+      "epoch_time": [
+        1.984,
+        1.868,
+        1.924,
+        1.931,
+        2.104,
+        2.214,
+        2.128,
+        1.926,
+        1.934,
+        1.894,
+        2.037,
+        2.003,
+        2.018,
+        2.108,
+        2.126,
+        2.014,
+        2.029,
+        1.963,
+        1.988,
+        1.865
+      ]
+    },
+    "generations": [
+      {
+        "prompt": "Bitcoin adalah",
+        "output": "bitcoin adalah mata uang digital pertama yang berhasil memecahkan masalah double-spending tanpa memerlukan otoritas terpusat. diciptakan oleh seseorang atau kelompok anonim dengan nama samaran satoshi nakamoto pada tahun 2008, bitcoin diperkenalkan melalui sebuah whitepaper berjudul \" bitcoin: a peer-to-peer electronic cash system \". whitepaper tersebut mendeskripsikan sebuah sistem pembayaran elektronik yang memungkinkan transaksi langsung antara dua pihak tanpa melalui lembaga keuangan seperti bank. teknologi yang mendasari bitcoin dikenal sebagai blockchain. blockchain adalah sebuah buku besar digital"
+      },
+      {
+        "prompt": "blockchain teknologi",
+        "output": "blockchain teknologi ini masih dalam fase awal adopsi massal, dan masih banyak tantangan teknis, regulatori, dan sosial yang harus diatasi. namun potensinya untuk menciptakan sistem keuangan yang lebih inklusif, transparan, dan efisien membuat banyak orang percaya bahwa revolusi digital yang sesungguhnya baru saja dimulai. mining dan hashrate proses penambangan bitcoin atau mining adalah proses kompetitif di mana para miner menggunakan perangkat keras khusus untuk mencari nilai hash yang memenuhi target kesulitan jaringan. perangkat keras"
+      },
+      {
+        "prompt": "smart contract",
+        "output": "smart contract setelah kesuksesan bitcoin, berbagai proyek blockchain lain bermunculan dengan menawarkan fitur-fitur tambahan. ethereum, yang diluncurkan oleh vitalik buterin pada tahun 2015, memperkenalkan konsep revolusioner yang disebut smart contract atau kontrak pintar. smart contract adalah program komputer yang berjalan secara otomatis di atas blockchain ketika kondisi-kondisi tertentu anggota. program ini tidak memerlukan perantara atau pihak ketiga karena eksekusinya dijamin oleh blockchain itu sendiri. misalnya, sebuah smart contract dapat secara otomatis mentransfer kepemilikan sebuah"
+      },
+      {
+        "prompt": "proof of work",
+        "output": "proof of work, terutama konsumsi energi yang besar. proof of stake atau pos adalah mekanisme konsensus di mana validator dipilih untuk membuat blok baru berdasarkan jumlah koin yang mereka stake atau jaminkan sebagai agunan. ethereum sendiri telah bermigrasi dari proof of stake melalui pembaruan yang disebut the merge pada september 2022. transisi ini mengurangi konsumsi energi ethereum hingga lebih dari sembilan puluh sembilan persen. dalam sistem proof of stake ethereum, validator perlu menstake minimal tiga puluh dua"
+      }
+    ]
+  },
+  {
+    "tokenizer": "BPE-Like (Subword)",
+    "vocab_size": 231,
+    "total_tokens": 7602,
+    "char_per_token": 2.413,
+    "model_params": 631296,
+    "epochs": 20,
+    "final_loss": 0.1778,
+    "final_ppl": 1.19,
+    "best_ppl": 1.19,
+    "total_time_s": 118.86,
+    "history": {
+      "loss": [
+        3.8674,
+        2.6938,
+        1.842,
+        1.1568,
+        0.7449,
+        0.5331,
+        0.4199,
+        0.3506,
+        0.306,
+        0.2744,
+        0.2502,
+        0.2325,
+        0.217,
+        0.2067,
+        0.1966,
+        0.1905,
+        0.1857,
+        0.1809,
+        0.179,
+        0.1778
+      ],
+      "perplexity": [
+        47.82,
+        14.79,
+        6.31,
+        3.18,
+        2.11,
+        1.7,
+        1.52,
+        1.42,
+        1.36,
+        1.32,
+        1.28,
+        1.26,
+        1.24,
+        1.23,
+        1.22,
+        1.21,
+        1.2,
+        1.2,
+        1.2,
+        1.19
+      ],
+      "epoch_time": [
+        6.365,
+        6.184,
+        5.651,
+        5.835,
+        6.066,
+        5.694,
+        5.791,
+        6.347,
+        5.847,
+        5.989,
+        6.334,
+        5.789,
+        5.624,
+        6.248,
+        5.811,
+        5.724,
+        5.936,
+        5.83,
+        5.612,
+        6.179
+      ]
+    },
+    "generations": [
+      {
+        "prompt": "Bitcoin adalah",
+        "output": "bitcoin  adalah  aset  di  man a  p ara  m in er  meng gunakan  per ang k at  k er as  k h us us  untuk  men c ari  n i l ai  h as h  yang  mem en u h i  t ar g e t  ke s ul it an  j ar ing an  .  per ang k at  k er as  yang  di gunakan  a w al nya  adalah  c p u  bi as a  ,  kem u di an"
+      },
+      {
+        "prompt": "blockchain teknologi",
+        "output": "blockchain  tek no lo gi  ini  m asi h  dalam  f ase  a w al  ad o p si  m as s al  ,  dan  m asi h  ban y a k  tan t angan  tek n is  ,  r eg ul at or i  ,  dan  s o si al  yang  h ar us  di at asi  .  n am un  po t en s in ya  untuk  men c i p ta kan  s is tem  ke u angan  yang  le"
+      },
+      {
+        "prompt": "smart contract",
+        "output": "s m ar t  co n tr a c t  tan pa  per l u  ap pro v al  dari  ban k  atau  l em bag a  ke u angan  man ap un  .  n on - f ung i b l e  to k en  atau  n f t  adalah  aset  digital  un i k  yang  di r e pr es en t asi kan  di  blockchain  .  ber b ed a  dengan  bitcoin  yang  f ung i b l e  atau  dapat  di per tu k ar"
+      },
+      {
+        "prompt": "proof of work",
+        "output": "pro of  of  w or k  .  dalam  m ek an is m e  ini  ,  p ara  pen am b ang  atau  m in er  ber s a ing  untuk  mem e c a h kan  tek a - tek i  m at em at i k a  yang  s ang at  ko mp l ek s  .  pen am b ang  yang  ber h asi l  mem e c a h kan  tek a - tek i  ter sebu t  pert ama  k"
+      }
+    ]
+  }
+]
