@@ -285,25 +285,6 @@ def print_comparison(results: list):
 
     print(f"\n  ★ Model TERBAIK  : {best['tokenizer']}  (Best PPL = {best['best_ppl']:.2f})")
     print(f"  ✗ Model TERBURUK : {worst['tokenizer']} (Best PPL = {worst['best_ppl']:.2f})")
-
-    print(f"\n  ANALISIS:\n")
-    print(
-        "  • Character-Level memiliki vocab paling kecil tetapi urutan token\n"
-        "    paling panjang. Model harus belajar menyusun kata dari karakter,\n"
-        "    sehingga membutuhkan lebih banyak epoch untuk konvergensi.\n"
-    )
-    print(
-        "  • Word-Level memiliki urutan token paling pendek dan setiap token\n"
-        "    sudah bermakna semantis. PPL biasanya lebih rendah pada corpus\n"
-        "    kecil karena model langsung belajar pola kata.\n"
-    )
-    print(
-        "  • BPE-Like menawarkan keseimbangan: vocab lebih kecil dari word-level\n"
-        "    tetapi lebih ekspresif dari char-level. Cocok untuk corpus dengan\n"
-        "    banyak kata teknis seperti 'blockchain', 'cryptocurrency', dll.\n"
-    )
-
-
 # ═══════════════════════════════════════════════════════════════════
 # MAIN
 # ═══════════════════════════════════════════════════════════════════
